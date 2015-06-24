@@ -6,7 +6,7 @@
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://github.com/RealVNC" name="realvnc"/>
 
-  <project remote="realvnc" revision="phoenix" name="yocto_imx6sabreauto_poky" path="sources/poky"/>
+  <project remote="realvnc" revision="quetzalcoatl" name="yocto_imx6sabreauto_poky" path="sources/poky"/>
   <project remote="realvnc" revision="phoenix" name="yocto_imx6sabreauto_meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="realvnc" revision="phoenix" name="yocto_imx6sabreauto_meta-openembedded" path="sources/meta-openembedded"/>
