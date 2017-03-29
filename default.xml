@@ -6,18 +6,19 @@
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://github.com/RealVNC" name="realvnc"/>
 
-  <project remote="realvnc" revision="sparta" name="yocto_imx6sabreauto_poky" path="sources/poky"/>
-  <project remote="realvnc" revision="phoenix" name="yocto_imx6sabreauto_meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="realvnc" revision="unicorn_krogoth" name="yocto_imx6sabreauto_meta-qt5" path="sources/meta-qt5"/>
+  <project remote="realvnc" revision="unicorn_krogoth" name="yocto_imx6sabreauto_poky" path="sources/poky"/>
+  <project remote="realvnc" revision="unicorn_krogoth" name="yocto_imx6sabreauto_meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
-  <project remote="realvnc" revision="phoenix" name="yocto_imx6sabreauto_meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="realvnc" revision="unicorn_krogoth" name="yocto_imx6sabreauto_meta-openembedded" path="sources/meta-openembedded"/>
 
-  <project remote="realvnc" revision="phoenix" name="yocto_imx6sabreauto_fsl-community-bsp-base" path="sources/base">
+  <project remote="realvnc" revision="unicorn_krogoth" name="yocto_imx6sabreauto_fsl-community-bsp-base" path="sources/base">
     <copyfile dest="README" src="README"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
-  <project remote="realvnc" revision="phoenix" name="yocto_imx6sabreauto_meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
-  <project remote="realvnc" revision="sparta" name="yocto_imx6sabreauto_meta-fsl-demos" path="sources/meta-fsl-demos"/>
-  <project remote="freescale" revision="dizzy" name="Documentation" path="sources/Documentation"/>
+  <project remote="realvnc" revision="unicorn_krogoth" name="yocto_imx6sabreauto_meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
+  <project remote="realvnc" revision="unicorn_krogoth" name="yocto_imx6sabreauto_meta-fsl-demos" path="sources/meta-fsl-demos"/>
+  <project remote="freescale" revision="krogoth" name="Documentation" path="sources/Documentation"/>
 
 </manifest>
