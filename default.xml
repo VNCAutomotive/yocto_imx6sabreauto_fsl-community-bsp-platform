@@ -8,7 +8,7 @@
 
   <project remote="realvnc" revision="unicorn_krogoth" name="yocto_imx6sabreauto_meta-qt5" path="sources/meta-qt5"/>
   <project remote="realvnc" revision="unicorn_krogoth" name="yocto_imx6sabreauto_poky" path="sources/poky"/>
-  <project remote="realvnc" revision="unicorn_krogoth" name="yocto_imx6sabreauto_meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="realvnc" revision="victory_krogoth" name="yocto_imx6sabreauto_meta-fsl-arm" path="sources/meta-fsl-arm"/>
 
   <project remote="realvnc" revision="unicorn_krogoth" name="yocto_imx6sabreauto_meta-openembedded" path="sources/meta-openembedded"/>
 
