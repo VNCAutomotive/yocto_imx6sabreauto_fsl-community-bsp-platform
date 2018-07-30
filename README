@@ -14,13 +14,13 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir fsl-community-bsp
 $: cd fsl-community-bsp
-$: repo init -u https://github.com/RealVNC/fsl-community-bsp-platform -b xingu_jethro
+$: repo init -u https://github.com/VNCAutomotive/yocto_imx6sabreauto_fsl-community-bsp-platform.git -b xingu_jethro
 $: repo sync
 
 Once this has completed, you will have all you need. To start a build, do:
 
 $: source ./setup-environment build
-$: bitbake realvnc-image
+$: bitbake vncautomotive-image
 
 You can use any directory to host your build.
 
