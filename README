@@ -14,7 +14,7 @@ Download the BSP source:
 $: PATH=${PATH}:~/bin
 $: mkdir fsl-community-bsp
 $: cd fsl-community-bsp
-$: repo init -u https://github.com/RealVNC/fsl-community-bsp-platform -b victory_krogoth
+$: repo init -u https://github.com/VNCAutomotive/fsl-community-bsp-platform -b victory_krogoth
 $: repo sync
 
 Once this has completed, you will have all you need. To start a build, do:
