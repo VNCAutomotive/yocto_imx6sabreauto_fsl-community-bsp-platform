@@ -3,8 +3,8 @@
 
   <default sync-j="4" revision="master"/>
 
-  <remote fetch="git://github.com/Freescale" name="freescale"/>
-  <remote fetch="git://github.com/VNCAutomotive" name="vncautomotive"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/VNCAutomotive" name="vncautomotive"/>
 
   <project remote="vncautomotive" revision="unicorn_jethro" name="yocto_imx6sabreauto_meta-qt5" path="sources/meta-qt5"/>
   <project remote="vncautomotive" revision="yardbird_jethro" name="yocto_imx6sabreauto_poky" path="sources/poky"/>
